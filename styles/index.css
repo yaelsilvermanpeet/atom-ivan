@@ -60,64 +60,8 @@ main {
   height: 24px;
 }
 
-/* Base styles for the navigation */
-nav {
-  position: relative;
+
+#nav-list li a:hover {
+  color: #ff9800;
+  transform: scale(1.05); /* Slight scale effect */
 }
-
-ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul li {
-  padding: 10px 15px;
-}
-
-/* Hide the hamburger menu by default */
-.hamburger-menu {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  padding: 10px;
-  background: none;
-  border: none;
-}
-
-/* Media Query for Mobile (screen width <= 768px) */
-@media (max-width: 768px) {
-  .hamburger-menu {
-    display: block; /* Show hamburger on mobile */
-  }
-
-  ul {
-    display: none; /* Hide the menu by default */
-    position: absolute;
-    top: 50px; /* Position the menu below the hamburger icon */
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    flex-direction: column;
-  }
-
-  ul li {
-    width: 100%;
-    text-align: center;
-    padding: 15px 0;
-    background-color: #333;
-    border-bottom: 1px solid #fff;
-  }
-
-  ul li a {
-    color: white;
-    text-decoration: none;
-  }
-
-  /* When the menu is toggled */
-  ul.open {
-    display: flex;
-  }
-}
-

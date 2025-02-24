@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    color: #352f36;
+    margin: 0%;
+    background-color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #352f36;
+}
+
+
+ul {
+    list-style: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+
+nav {
+    width: 100%;
+}
+
+li {
+    padding: 2em;
+    display: inline-block;
+}
+
+footer {
+    color:chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#banner {
+    width: 100%;
+}
+
+

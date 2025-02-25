@@ -24,6 +24,11 @@ nav {
     width: 100%;
 }
 
+#nav-list li a:hover {
+    color: chocolate;
+    transform: scale(1.05); /* Slight scale effect */
+}
+
 li {
     padding: 2em;
     display: inline-block;
@@ -33,6 +38,7 @@ footer {
     color:chocolate;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    padding: 2%;
 }
 
 #banner {

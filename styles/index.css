@@ -60,8 +60,3 @@ main {
   height: 24px;
 }
 
-
-#nav-list li a:hover {
-  color: #ff9800;
-  transform: scale(1.05); /* Slight scale effect */
-}

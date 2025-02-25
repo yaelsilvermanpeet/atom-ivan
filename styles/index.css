@@ -1,5 +1,6 @@
 img {
-  width: 18%;
+  width: 50%;
+  height: 50%;
   height: auto;
   vertical-align: middle;
 }
@@ -8,34 +9,7 @@ main {
   margin-bottom: 5%;
 }
 
-.link-grid {
-  display: grid;
-  grid-template-columns: 5% 20% 20% 6% 20% 20% 9%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-}
 
-.link-facts>img {
-  object-fit: cover;
-  width: 100%;
-  border: 10px solid rgba(138, 101, 199, 0.352);
-  border-radius: 5px;
-  padding: 0px;
-  margin: 20px;
-}
-
-.link-gallery>img {
-  object-fit: cover;
-  width: 85%;
-  border: 10px solid rgba(138, 101, 199, 0.352);
-  border-radius: 5px;
-  padding: 0px;
-  margin: 20px; 
-}
-
-
-#banner {
-  width: 100%;
-}
 
 #icon {
   width: 24px;

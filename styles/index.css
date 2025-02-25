@@ -14,24 +14,6 @@ main {
   grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
-.gallery-text {
-  grid-column: 2/4;
-}
-
-.fun-facts-text {
-  grid-column: 5/7;
-}
-
-.link-gallery {
-  grid-row: 2/4;
-  grid-column: 2/4;
-}
-
-.link-facts {
-  grid-row-start: 2/4;
-  grid-column: 5/7;
-}
-
 .link-facts>img {
   object-fit: cover;
   width: 100%;

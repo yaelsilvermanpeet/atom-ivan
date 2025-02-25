@@ -14,11 +14,3 @@
     display: grid;
 }
 
-body .description {
-    display: block; /* Ensures each line appears on a new line */
-    color:dimgray;
-    font-size: smaller;
-    font-weight: lighter;
-    text-align: center;
-    padding: 2%;
-}

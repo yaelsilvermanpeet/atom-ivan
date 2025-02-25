@@ -1,3 +1,10 @@
+* {padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    /* display: block; */
+    }
 
 body {
     text-align: center;
@@ -39,7 +46,7 @@ footer {
     color:chocolate;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    padding: 3%;
+    padding: 5%;
 }
 
 #banner {
